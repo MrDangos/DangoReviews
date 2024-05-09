@@ -1,6 +1,17 @@
+
 .layout1{
-    display: flex;
-    place-items: center;
-    justify-content: center;
-    flex-direction: row;}
+    display: grid;
+    font-size: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px 100px;}
+
+#rating{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 69px;
+
+}
+h2{
+    padding-bottom: 20px;
+}
 

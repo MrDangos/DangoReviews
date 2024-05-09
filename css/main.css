@@ -4,7 +4,8 @@ body{
     'Lucida Sans', Arial, sans-serif;    
     display: flex;
     flex-direction: column;
-    color: rgb(34, 165, 34);    
+    color: rgb(34, 165, 34); 
+    font-weight: bold;
 }
 nav {
     display: flex;

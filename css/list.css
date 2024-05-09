@@ -9,8 +9,7 @@ a {
     text-decoration: none;
 }
 .lists{
-    display: flex;
-    place-items: center;
-    justify-content: space-around;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px 100px;
 }
