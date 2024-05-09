@@ -1,0 +1,44 @@
+{
+    "music": [
+    {
+        "musicId": 1,
+        "title": "Money Trees",
+        "artist": "Kendreck Lamar",
+        "Fetures": "Jay Rock",
+        "genre": "Rap",
+        "album": "Good Kids, Mad City",
+        "length": "6:26 min",
+        "dangoRating": 90
+    },
+    {
+        "musicId": 2,
+        "title": "Middle Child",
+        "artist": "J Cole",
+        "Fetures": "none",
+        "genre": "Rap",
+        "album": "Single",
+        "length": "3:33 min",
+        "dangoRating": 85
+    },
+    {
+        "musicId": 3,
+        "title": "Not Like Us",
+        "artist": "Kendreck Lamar",
+        "Fetures": "None",
+        "genre": "Rap",
+        "album": "Single",
+        "length": "4:33 min",
+        "dangoRating": 88
+    },
+    {
+        "musicId": 4,
+        "title": "Cannibal",
+        "artist": "Bury Tomorrow",
+        "Fetures": "None",
+        "genre": "Metal",
+        "album": "Cannibal",
+        "length": "4:15 min",
+        "dangoRating": 88
+    }
+]
+}
