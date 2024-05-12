@@ -19,15 +19,38 @@
         <h1>Songs</h1>
         <p id="mainDiscription"><b>Welcome to my song ratings with the greatest rating system</p>
         <div class = lists>
-            <ol id = TenList>
-                <li><a id = money_trees href="/html/SongGenres/rapSongs/money_Trees.html">Money Trees by Kendric Lamar</a></li>
+            <ol id = "topFive">
             </ol>
             <ul id = UList>
-                <li><a id = rap href="/html/SongGenres/rapSongs/rapMain.html"><b>Rap</a></li>
+                <a id="rap" href="/html/SongGenres/rapSongs/rapMain.html"><b>Rap</a>
             </ul>
         </div>
 
         <p id="disclaimer"><b>DISCLAIMER THIS IS A PAGE IS BASED ON MY DUMB AND WEIRD OPION, IF YOU GET OFFENDED JUST LEAVE &#128513;</p>
     </div>
+    <script src="/js/mainMusic.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('a').forEach(function(anchor) {
+                anchor.addEventListener('click', function(event) {
+                    const href = this.getAttribute('href');
+                    
+                    fetch(href)
+                        .then(response => {
+                            if (response.ok) {
+                                return;
+                            } else {
+                                window.location.href = 'https://http.cat/404';
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error checking page existence:', error);
+                        });
+
+                    event.preventDefault();
+                });
+            });
+        });
+    </script>
 </body>
 </html>

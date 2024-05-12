@@ -1,35 +1,49 @@
-
-.layout1{
-    display: grid;
-    font-size: 24px;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0px 100px;
-    
-}
-#layout2{
+.gridContainer{
+    margin: 10px;
     border-bottom: 7px solid rgb(252, 173, 186);
     border-top: 7px solid rgb(252, 173, 186);
     border-left: 7px solid rgb(154, 25, 46);
     border-right: 7px solid rgb(154, 25, 46);
-    margin-bottom: 50px;
+    display: grid;
+    grid-template-areas: 'left right';
+    grid-template-columns: repeat(2, 1fr);
+}
+#layoutRight{
+    grid-area: right;
+    padding: 20px 50px; 
+    margin-bottom: 48em; 
+}
+#layoutLeft{
+    margin: 50px;
+    margin-bottom: 0px;
     margin-right: 80px;
     padding:  10px 20px 20px 20px ;
+    display: grid;
+    font-size: 20px;
+    gap: 0px 100px;   
+    grid-area: left;
 }
-#rating{
+#dangoScore{
     padding-top: 100px;
-    padding-bottom: 20px;
-    font-size: 69px;
+    padding-bottom: 15px;
+    font-size: 38px;
+    color: rgb(252, 173, 186);
     text-shadow: 1.7px 1.2px 1px rgb(154, 25, 46);
 }
 h1{
+    font-size: 69px;
+    padding-top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-shadow: 2px 1.6px .5px rgb(252, 173, 186);;
 }
-h2{
-    padding-bottom: 20px;
+#songDetails{
     text-shadow: 2px 1.6px .5px rgb(252, 173, 186);;
 
 }
+
 img{
+    margin: 50px;
     border-bottom: 7px solid rgb(252, 173, 186);
     border-top: 7px solid rgb(252, 173, 186);
     border-left: 7px solid rgb(154, 25, 46);

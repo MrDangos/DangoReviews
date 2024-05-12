@@ -16,20 +16,25 @@
     <title>Money Trees Review</title>
 </head>
 <body>
-    <div>
-        <h1>Money Trees</h1>
-        <h2>by Kendric ft Jay Rock</h2>
-        <i class="fa-solid fa-house"></i>
-        <div class = layout1>
-            <img src="/images/GoodKidsMadCityCoverArt.jpg" alt="GoodKidsMadCityCoverArt">
-            <div id = layout2>
-                <!--maxs is 112-->
-                <p>Great song with a realy good feature from Jay Rock no wonder this is one of kenders classics</p>
-                <a id = rating><b>110</a>
-                <a id = rating_description><b>With how great this song is no woulder it scored so high on the Dango Rating scale</a>
-            </div>
+    <script src="/js/mainMusic.js"></script>
+    <script>
+        loadMusicById(1);
+    </script>
+    <div class="gridContainer">
+        <div id = layoutRight>
+            <h1 id = "songTitle" id = SongTitle></h1>
+            <h2 id = "songDetails">by Kendric ft Jay Rock</h2>
+            <P id = "extraSongInfo"></P>
         </div>
-        <p id ="disclaimer"><b>DISCLAIMER THIS IS A PAGE IS BASED ON MY DUMB AND WEIRD OPION, IF YOU GET OFFENDED JUST LEAVE &#128513;</p>     
+        <div id = layoutLeft>
+            <!--maxs is 112-->
+            <p>Great song with a realy good feature from Jay Rock no wonder this is one of kenders classics</p>
+            <a id = "dangoScore"></a>
+            <a id = rating_description><b>With how great this song is no wounder it scored so high on the Dango Rating scale</a>
+            <img src="/images/GoodKidsMadCityCoverArt.jpg" alt="GoodKidsMadCityCoverArt">
+            </div>
     </div>
+    <p id ="disclaimer"><b>DISCLAIMER THIS IS A PAGE IS BASED ON MY DUMB AND WEIRD OPION, IF YOU GET OFFENDED JUST LEAVE &#128513;</p> 
+             
 </body>
 </html>

@@ -4,7 +4,7 @@
         "musicId": 1,
         "title": "Money Trees",
         "artist": "Kendreck Lamar",
-        "Fetures": "Jay Rock",
+        "features": "Jay Rock",
         "genre": "Rap",
         "album": "Good Kids, Mad City",
         "length": "6:26 min",
@@ -15,7 +15,7 @@
         "musicId": 2,
         "title": "Middle Child",
         "artist": "J Cole",
-        "Fetures": "none",
+        "features": "none",
         "genre": "Rap",
         "album": "Single",
         "length": "3:33 min",
@@ -26,7 +26,7 @@
         "musicId": 3,
         "title": "Not Like Us",
         "artist": "Kendreck Lamar",
-        "Fetures": "None",
+        "features": "None",
         "genre": "Rap",
         "album": "Single",
         "length": "4:33 min",
@@ -37,7 +37,7 @@
         "musicId": 4,
         "title": "Cannibal",
         "artist": "Bury Tomorrow",
-        "Fetures": "None",
+        "features": "None",
         "genre": "Metal",
         "album": "Cannibal",
         "length": "4:15 min",
@@ -48,12 +48,24 @@
         "musicId": 5,
         "title": "When you & me dance",
         "artist": "Grabbitz",
-        "Fetures": "None",
+        "features": "None",
         "genre": "EDM",
         "album": "This Isn't Real",
         "length": "3:39 min",
         "dangoRating": 92,
         "source": "/html/SongGenres/emdMusic/whenYou_meDance.html"
+    },    
+    {
+        "musicId": 6,
+        "title": "Alright",
+        "artist": "Kendrick Lamar",
+        "features": "None",
+        "genre": "Rap",
+        "album": "To Pimp A Butterfly",
+        "length": "3:39 min",
+        "dangoRating": 105,
+        "source": "/html/SongGenres/rapSongs/tpab.html"
     }
+    
 ]
 }

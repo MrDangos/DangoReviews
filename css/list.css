@@ -1,12 +1,15 @@
-#UList, #TenList, a{
+#UList, a{
     color: rgb(252, 173, 186);
 }
-#UList #TenList a:hover{
+#UList #topFive a:hover{
     color: rgb(34, 165, 34);    
 }
 a {
     text-shadow: .5px 0px 0px rgb(154, 25, 46);
     text-decoration: none;
+}
+#topFive{
+    font-size: 20px
 }
 .lists{
     display: grid;
